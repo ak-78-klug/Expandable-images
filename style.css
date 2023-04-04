@@ -6,7 +6,7 @@ body {
   width: 100vw;
 }
 .grid-wrapper {
-  background-color: #ffffff;
+  background: #ececec;
   width: 32em;
   height: 32em;
   position: absolute;
@@ -35,4 +35,18 @@ body {
 img {
   width: 100%;
   height: 100%;
+}
+
+@media (max-width: 44em) {
+  .grid-wrapper {
+    width: 28em;
+    height: 28em;
+  }
+  .grid-row {
+    height: 12em;
+  }
+  .square-wrapper {
+    width: 12em;
+    height: 12em;
+  }
 }
